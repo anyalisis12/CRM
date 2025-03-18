@@ -1,0 +1,33 @@
+/* Apply styles to the container */
+
+
+/* Style the Cards section */
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style the Crop Carousel */
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    align-content: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-container {
+        padding: 10px;
+    }
+    
+    .carousel-container {
+        width: 100%;
+    }
+}
